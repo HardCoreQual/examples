@@ -1,0 +1,23 @@
+{
+  "name": "node-babel-ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/plugin-transform-runtime": "^7.16.4",
+    "@babel/preset-env": "^7.16.4",
+    "@babel/preset-typescript": "^7.16.0",
+    "@babel/register": "^7.16.0",
+    "@types/jest": "^27.0.3",
+    "jest": "^27.4.3",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.16.3"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
